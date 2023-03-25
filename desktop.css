@@ -1,0 +1,77 @@
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+
+            /* header design start here  */
+            nav ul li{
+               display: inline;
+            }
+            nav ul{
+                text-align: right;
+            }
+            .logo-div{
+                text-align: left;
+            }
+            nav{
+                margin-top: 25px;
+            }
+            .row{
+                height: auto;
+            }
+
+            nav ul li a{
+                padding: 10px 30px;
+                font-size: 1.3rem;
+            }
+            nav ul li a:hover{
+                font-size: 1.3rem;
+            }
+
+            /* header design ends here  */
+
+            /* banner section starts here  */
+
+            .banner-contents h1{
+                width: 50%;
+            }
+
+            .banner-contents p{
+                width: 40%;
+            }
+
+            /* banner section starts here  */
+
+            /* food menu section starts here  */
+
+            .card-div .pic img{
+                height: 200px;
+            }
+            .card-div:hover{
+               transform: scale(1.1);        
+            }
+
+            /* food menu section ends here  */
+
+            /* footer section starts here  */
+
+            .menus{
+                text-align: right;
+            }
+            .footer-container p{
+                text-align: left;
+            }
+
+            /* footer section ends here  */
+
+            
+
+            

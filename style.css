@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+[class*="col-"]{
+    width: 100%;
+    float: left;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.row{    
+    padding: 1%;      
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+   /* header design start here  */
+
+
+.container{
+    padding: 1%;
+}
+
+header{
+    text-align: center;
+    background-color: #24a19c;
+}
+.logo-div a i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 14px;
+    width: 72px;
+    height: 72px;    
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 30px auto;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 15px;
+    transition: .2s;
+}
+nav ul li a:hover{
+    color: tomato;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.1rem;
+}
+
+    /* header design ends here  */
+
+    /* banner-section starts from here  */
+
+#banner-section{
+    text-align: center;
+    background-image: url(images/restu.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-contents{
+    padding:50px 10px;
+}
+.banner-contents h1{
+    background-color: rgba(255, 255, 0, 0.884);
+    padding: 20px 10px;
+    width: 100%; 
+    font-size: 3rem;  
+    border-radius: 15px;           
+    margin: 15px auto;
+    font-family: 'Satisfy', cursive;
+}
+.banner-contents p{
+    background-color: rgb(0, 128, 0);
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    color: white;
+    width: 90%;
+}
+
+.banner-contents .btn{
+    background-color: rgb(0, 128, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .banner-contents .btn:hover{
+    transform: scale(1.2);
+}
+
+    /* banner-section ends here  */
+
+    /* about us starts from here  */
+
+    #about-us{
+        padding: 1%;
+    }
+
+    .aboutus-content{
+        padding: 1%;
+        text-align: center;
+    }
+
+    .aboutus-content h3{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+
+    /* about us ends here  */
+
+    /* food menu design starts here  */
+
+    .food1,.food2,.food3,.food4{
+        padding: 1%;
+    }
+    .card-div{
+        text-align: center;
+        border: 1px solid black;
+        box-shadow: 0px 2px 2px 2px black;
+        width: 100%;
+        margin: 10px auto;
+        transition: .3s;
+    }
+
+    .card-div:hover{
+        box-shadow: 0px 4px 4px 3px black;        
+    }
+    .card-div .pic img{
+        width: 100%;
+        display: block;
+    }
+    .card-div .desc h4{
+        font-size: 1.2rem;        
+        background-color: green;
+        padding: 8px 0px;
+    }
+    .card-div .desc p{
+        background-color: rgb(165, 164, 164);
+        padding: 25px;
+    }
+
+    /* food menu dedign ends here  */
+
+    /* contact section starts from here  */
+
+
+    #contact{
+        padding: 1%;
+        background-color: #595b83;
+    }
+    #contact .map{
+        width: 100%;
+        height: 240px;
+    }
+    .contacts{
+        padding: 2%;
+        text-align: center;
+        color: white;
+        padding: 20px 0px;
+    }
+    .contacts h5{
+        font-size: 1.2rem;
+    }
+
+    .contacts p{
+        font-size: 0.8rem;
+    }
+
+    /* contact section ends here */
+
+    /* footer starts here  */
+
+    #footer-section{
+        padding: 1%;
+        color: white;
+        background-color: #060930;
+        text-align: center;
+    }
+
+    .footer-container p{
+        font-size: 0.9rem;
+        line-height: 30px;
+        margin: 20px 0px;
+    }
+    .menus{
+        padding: 1%;       
+    }
+    .menus .menu-btn{       
+        color: white;
+        padding: 10px;
+        margin: 0px 10px;
+        border: 1px solid white;
+        border-radius: 50%;
+        text-align: center;
+        transition: .3s;        
+    }
+    .menus .menu-btn:hover{
+        background-color: gray;
+        transform: scale(1.2);
+    }
+
+    /* footer ends here  */
+
+
+
+
+
